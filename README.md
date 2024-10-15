@@ -2,12 +2,12 @@
 
 
 
-#Numpay
+# Numpay
 
 
 import numpy as np
 
-##Basic Numpy Array
+## Basic Numpy Array
 
 np.array([1, 2, 3, 4])
 
@@ -35,7 +35,7 @@ b[0], b[2], b[-1]
 
 b[[0, 2, -1]]
 
-##Array Types
+## Array Types
 
 a
 
@@ -51,7 +51,7 @@ c = np.array(['a', 'b', 'c'])
 
 c.dtype
 
-##Dimention and Shapes
+## Dimention and Shapes
 
 A = np.array([
     [1,2,3],
@@ -83,7 +83,7 @@ B.ndim
 
 B.size
 
-##Indexing and Slicing of Matrices
+## Indexing and Slicing of Matrices
 
 A = np.array([
     [1, 2, 3],
@@ -111,7 +111,7 @@ A[2] = 99
 
 A
 
-##Summary Statistics
+## Summary Statistics
 
 a = np.array([1, 2, 3, 4])
 
@@ -144,7 +144,7 @@ A.mean(axis=0)
 A.mean(axis=1)
 
 
-##Broadcasting and Vectorized operation
+## Broadcasting and Vectorized operation
 
 
 a = np.arange(4)
@@ -171,7 +171,7 @@ a + b
 
 a * b
 
-##Boolean Arrays
+## Boolean Arrays
 
 a = np.arange(4)
 
@@ -199,7 +199,7 @@ A
 
 A>30
 
-##Linear Algebra
+## Linear Algebra
 
 A = np.array([
     [1, 2, 3],
@@ -223,9 +223,9 @@ A
 
 B.T @ A
 
-##Some useful numpy functions
+## Some useful numpy functions
 
-###Random
+### Random
 
 
 np.random.random(size=2)
@@ -234,7 +234,7 @@ np.random.normal(size=2)
 
 np.random.rand(2, 4)
 
-###Arange
+### Arange
 
 np.arange(10)
 
@@ -242,13 +242,13 @@ np.arange(5, 10)
 
 np.arange(0, 1, .1)
 
-###Reshape
+### Reshape
 
 np.arange(10).reshape(2, 5)
 
 np.arange(10).reshape(5, 2)
 
-###Linspace
+### Linspace
 
 np.linspace(0, 1, 5)
 
@@ -256,7 +256,7 @@ np.linspace(0, 1, 20)
 
 np.linspace(0, 1, 20, False)
 
-###Zeros, Ones, Empty
+### Zeros, Ones, Empty
 
 np.zeros(5)
 
@@ -272,7 +272,7 @@ np.empty(5)
 
 np.empty((2, 2))
 
-###Identity and eye
+### Identity and eye
 
 np.identity(3)
 
